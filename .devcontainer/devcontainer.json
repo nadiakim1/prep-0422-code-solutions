@@ -8,13 +8,6 @@
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/dev/.gitconfig,type=bind"
   ],
   "appPort": [
-    80,    // apache/nginx
-    3000,  // node
-    5000,  // flask
-    8081,  // pgweb
-    9000,  // php-fpm
-    9229,  // node debugger
-    35729  // livereload
   ],
   "extensions": [
     "thebearingedge.lfz-code"
