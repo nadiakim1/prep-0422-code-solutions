@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    body {
+      font-family: serif;  background-color: rgb(48, 58, 68);
+    }
+
+    h1 {
+      text-align: center;
+    }
+    h2{
+      text-align: center; color: ghostwhite; font-weight: bolder; font-size: 40px;
+    }
+    h3{
+      text-align: center; color: ghostwhite; font-weight: bold; font-size: 20px;
+    }
+    p{
+      text-align: center; color: rgb(228, 228, 236); font-size: 15px;
+    }
+
+    img {width: 100%; padding-top: 25px;}
+
+    .container {max-width: 992px; margin: auto; text-align: center;
+
+    }
+
+    .row {width: 100%; display: flex;
+
+    }
+
+    .column {flex-basis: calc(100% / 3); padding-left: 8px; padding-right: 8px;
+
+    }
+  </style>
+</head>
+<body>
+  <h2>Robert Eggers Filmography</h2>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://static.onecms.io/wp-content/uploads/sites/6/2015/12/the-witch.jpg">
+        <h3>The Witch (2015)</h3>
+        <p>Period supernatural horror film by Robert Eggers in his feature directorial debut inspired by his childhood interest in New England, Jacobean-era Puritan and witch societies. For an authentic look, Eggers shot "with natural light and indoors, the only lighting was candles" in rural Canada. Changed standards to enter the "elevated horror" genre, became Anya Taylor-Joy's breakout role, and reinvented A24 as a competitive studio with creative horror films. </p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg">
+        <h3>The Lighthouse (2019)</h3>
+        <p>Nominated for Best Cinematography by the Academy Awards, this contemporary take on Edgar Allan Poe's unfinished story "The Light-House" has a genre widely debated by critics and audiences alike. Categorized as horror, psychological thriller, and character study, Eggers filmed this in black and white with a "narrow, vintage" aspect. Distributed by A24, it brought Eggers into the spotlight once again for an innovative, suspenseful, and atmospheric film. </p>
+      </div>
+      <div class="column">
+        <img src="https://pbs.twimg.com/media/FPBbP8_XIAcukLR.jpg:large">
+        <h3>The Northman (2022)</h3>
+        <p>Released on April 22nd, this epic historical action drama film is based on the Viking, Amleth, who seeks revenge for his family. With a star studded cast of Alexander Skarsgard, Nicole Kidman, Ethan Hawke, and Anya Taylor-Joy (who waited for years to work with Eggers again), this film has received early critical acclaim. A dream since 2011, Eggers poured everything into this film, even bringing an archaelogist as historical consultant for filming. </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
