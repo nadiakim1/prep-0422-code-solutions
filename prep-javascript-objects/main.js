@@ -1,6 +1,6 @@
 var person = { firstName: 'Carl', lastName: 'Garth', hobby: 'running' };
 console.log(person);
-var fullName = 'Carl Garth';
+var fullName = person.firstName + ' ' + person.lastName;
 console.log("The person's name is:" + ' ' + fullName + '.');
 person.job = 'chef';
 console.log("The person's job is:", person.job + '.');
