@@ -18,16 +18,15 @@
       I really like coding.
     </p>
     <p class="second-paragraph">
-      I also really like to watch television and eating pancakes.
     </p>
     <p class="third-paragraph">
-      I hope one day to meet people that also like coding, television, and pancakes.
     </p>
   </div>
   <script>
-    document.querySelector('p.second-paragraph') = $secondParagraph
-    console.log($secondParagraph)
-    document.querySelector('p.third-paragraph') = $thirdParagraph
+    var $secondParagraph = document.querySelector('.second-paragraph');
+    var $thirdParagraph = document.querySelector('.third-paragraph');
+    $secondParagraph.textContent = 'I also really like to watch television and eating pancakes.';
+    $thirdParagraph.textContent = 'I hope one day to meeet people that also like coding, television, and pancakes.';
   </script>
 </body>
 
